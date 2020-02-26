@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# HDMI subsystem configuration
+#
+
+menu "HDMI support"
+
+config IT6610_HDMI
+	bool "Enable IT6610 hdmi driver"
+  default y
+	help
+	  Say Y here if you want the IT6610 hdmi driver for gcw0 device
+
+endmenu

@@ -6,6 +6,8 @@
 # Rewritten to use lists instead of if-statements.
 #
 
+obj-y				+= it6610/
+
 obj-y				+= irqchip/
 obj-y				+= bus/
 
